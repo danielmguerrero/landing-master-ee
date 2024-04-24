@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: next-js
+  name: landing-master-ee
   runtime: node
   plan: starter
   buildCommand: yarn; yarn build

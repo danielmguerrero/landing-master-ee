@@ -6,14 +6,16 @@ import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Teachers } from '@/components/Teachers'
+import { Video } from '@/components/Video'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <Video />
+      <Teachers />  
       <PrimaryFeatures />
-      <SecondaryFeatures />
-      <Teachers />
+      <SecondaryFeatures />    
       <CallToAction />
       <Reviews />
       {/* <Pricing /> */}
