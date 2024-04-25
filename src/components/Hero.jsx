@@ -7,7 +7,6 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import logoElEspanol from '@/images/logos/elespanol.svg'
 import logoUCJC from '@/images/logos/ucjc.svg'
-// import girl.png from images
 import Girl from '@/images/girl.png'
 
 
@@ -135,7 +134,6 @@ export function Hero() {
               {[
                 ['El Español', logoElEspanol, 'h-10'],
                 ['UJC', logoUCJC, 'h-10'],
-
               ].map(([name, logo, className]) => (
                 <li key={name} className={clsx('flex', className)}>
                   <Image src={logo} alt={name} unoptimized width={200} />
@@ -143,6 +141,8 @@ export function Hero() {
               ))}
             </ul>
           </div>
+
+
         </div>
       </Container>
     </div>
