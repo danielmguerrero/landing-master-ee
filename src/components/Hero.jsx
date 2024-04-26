@@ -94,32 +94,37 @@ function PlayIcon(props) {
 
 export function Hero() {
   return (
-    <div className="overflow-hidden py-20 sm:py-16 lg:pb-32 xl:pb-36">
+    <div className="overflow-hidden py-8 sm:py-16 sm:pb-20 lg:pb-32 xl:pb-36">
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <h1 className="text-6xl font-medium tracking-tight text-gray-900">
+            <h1 className="text-4xl sm:text-6xl font-medium tracking-tight text-gray-900">
               Conviértete en un periodista 360 con EL ESPAÑOL
             </h1>
-            <p className="mt-6 text-lg text-gray-600">
-            El Máster en Periodismo EL ESPAÑOL + UCJC te preparará para ser un referente. Desde el primer día estarás integrado en la redacción de El Español, el medio nativo digital líder.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-            <Button href="#" className="hidden lg:block uppercase">
-              Inscríbete
-            </Button>
-              <Button
+            <p class="mt-6 text-lg text-gray-600">El Máster en Periodismo EL ESPAÑOL + UCJC te preparará para ser un referente. Desde el primer día estarás integrado en la redacción de El Español, el medio nativo digital líder.</p>
+            {/* <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
+              <Button href="#" className="hidden lg:block uppercase">
+                Más información
+              </Button>
+               <Button
                 href="https://www.youtube.com/watch?v=HGXz2QbfgmM"
                 variant="outline"
               >
                 <PlayIcon className="h-6 w-6 flex-none" />
                 <span className="ml-2.5">Así es el máster</span>
               </Button>
-            </div>
+            </div> */}
+            
+       
+            <Button href="#" className="mt-8 text-bold uppercase">
+              Solicita información
+            </Button>
+
+            
           </div>
-          <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
-            <BackgroundIllustration className="absolute left-1/2 top-4 h-[1026px] w-[1026px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
-            <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-bottom-20 lg:-top-10 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
+          <div className="relative mb-20 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+            <BackgroundIllustration className="opacity-40 sm:opacity-100 absolute left-1/2 top-4 h-[1026px] w-[1026px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
+            <div className="hidden sm:block -mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-bottom-20 lg:-top-10 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
               <Image src={Girl} alt="Girl" className="h-full w-full object-cover" />
             </div>
           </div>
@@ -129,7 +134,7 @@ export function Hero() {
             </p>
             <ul
               role="list"
-              className="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 md:justify-start"
+              className="mx-auto mt-4 flex max-w-xl flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 md:justify-start"
             >
               {[
                 ['El Español', logoElEspanol, 'h-10'],
@@ -140,9 +145,8 @@ export function Hero() {
                 </li>
               ))}
             </ul>
+            
           </div>
-
-
         </div>
       </Container>
     </div>

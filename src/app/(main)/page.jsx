@@ -15,10 +15,11 @@ export default function Home() {
       <SecondaryFeatures />  
       <PrimaryFeatures /> 
       <Teachers />  
-      <Video />
+      
       <CallToAction />
-      <Reviews />
+      {/* <Reviews /> */}
       <Faqs />
+      <Video />
     </>
   )
 }

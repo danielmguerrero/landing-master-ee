@@ -42,10 +42,10 @@ const faqs = [
 
 export function PrimaryFeatures() {
   return (
-    <section id="features" className="bg-gray-900 py-10 sm:py-18">
+    <section id="features" className="bg-gray-900 pb-2 sm:py-18">
       <Container>
         <div className="flex flex-col items-center mb-16">
-        <div className="mt-16 divide-gray-600 grid w-1/2">
+        <div className="mt-16 divide-gray-600 grid max-w-xl">
           <div className="pr-4">
             <h2 className="text-4xl font-medium tracking-tight text-white">Aprenderás todo lo necesario para trabajar en una redacción</h2>
             <dl className="mt-10 space-y-6 divide-y divide-gray-600">

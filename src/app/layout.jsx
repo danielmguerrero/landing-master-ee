@@ -12,10 +12,10 @@ const inter = Inter({
 export const metadata = {
   title: {
     template: '%s - EL ESPAÑOL',
-    default: 'Máster EL ESPAÑOL + UCJC',
+    default: 'Máster de Periodismo de EL ESPAÑOL y la Universidad Camilo José Cela',
   },
   description:
-    'By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses.',
+    'El Máster en Periodismo EL ESPAÑOL y la UCJC te preparará para ser un referente. Desde el primer día estarás integrado en la redacción de El Español, el medio nativo digital líder.',
 }
 
 export default function RootLayout({ children }) {

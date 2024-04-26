@@ -1,18 +1,18 @@
 import { useId } from 'react'
 
 import { Container } from '@/components/Container'
-import { AcademicCapIcon } from '@heroicons/react/24/outline'
+import { AcademicCapIcon, ClockIcon, BoltIcon, BuildingOfficeIcon, LanguageIcon, ChatBubbleBottomCenterTextIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Inicio',
     description: 'Octubre de 2024',
-    icon: AcademicCapIcon,
+    icon: BoltIcon,
   },
   {
     name: 'Duración',
-    description: '1 curso (9 meses)',
-    icon: AcademicCapIcon,
+    description: '1 curso',
+    icon: ClockIcon,
   },
   {
     name: 'Créditos',
@@ -22,17 +22,17 @@ const features = [
   {
     name: 'Modalidad',
     description: 'Presencial',
-    icon: AcademicCapIcon,
+    icon: ChatBubbleBottomCenterTextIcon,
   },
   {
     name: 'Idioma',
-    description: 'Español',
-    icon: AcademicCapIcon,
+    description: 'Castellano',
+    icon: LanguageIcon,
   },
   {
     name: 'Campus',
     description: 'UCJC Castellana (Madrid)',
-    icon: AcademicCapIcon,
+    icon: BuildingOfficeIcon,
   },
 ]
 
@@ -42,12 +42,13 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for building a portfolio"
-      className="pb-20 sm:pb-16"
+      className="sm:pb-20 pb-12 sm:pb-16"
     >
       <Container>
+
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-2 gap-6 text-sm sm:mt-20 sm:grid-cols-3 md:gap-y-10 lg:max-w-none lg:grid-cols-6"
+          className="mx-auto grid max-w-2xl grid-cols-2 gap-6 text-sm sm:grid-cols-3 md:gap-y-10 lg:max-w-none lg:grid-cols-6"
         >
           {features.map((feature) => (
             <li
@@ -62,7 +63,15 @@ export function SecondaryFeatures() {
             </li>
           ))}
         </ul>
+        <div className='flex justify-center mt-8'>
+        <span className="inline-flex items-center rounded-md bg-blue-50 px-4 py-3 text-xs font-medium uppercase">
+              Prácticas garantizadas
+            </span>
+            <p className="text-gray-600 ml-4 pt-2 text-sm">Harás 6 meses de prácticas en la redacción de EL ESPAÑOL tras finalizar el máster.</p>
+        </div>
+        
       </Container>
+      
     </section>
   )
 }

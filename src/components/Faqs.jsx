@@ -3,53 +3,53 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: '¿Cuál es el precio del Máster en Periodismo y cuáles son las formas de pago?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'El precio del Máster en Periodismo es de 9.000€. Ofrecemos diferentes formas de pago, incluyendo pago único, pago fraccionado y financiamiento a través de entidades bancarias.',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: '¿Existen ayudas disponibles para el Máster en Periodismo?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'Sí, ofrecemos diferentes tipos de ayudas para los estudiantes del Máster en Periodismo, como becas académicas, descuentos por mérito y programas de financiamiento.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: '¿Dónde se encuentra ubicado el campus del Máster en Periodismo?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
+        'Nuestro campus se encuentra en el centro de la ciudad, en una ubicación de fácil acceso y con todas las comodidades necesarias para los estudiantes.',
     },
   ],
   [
     {
-      question: 'How did you get this on the App Store?',
+      question: '¿Cuál es el horario del Máster en Periodismo?',
       answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
+        'El horario del Máster en Periodismo es de lunes a viernes, de 9:00 a.m. a 6:00 p.m. Se realizan actividades prácticas, conferencias y talleres durante este horario.',
     },
     {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
+      question: '¿Cuándo comienza el Máster en Periodismo?',
       answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
+        'El Máster en Periodismo comienza en septiembre de cada año. Las fechas exactas pueden variar, por lo que se recomienda consultar el calendario académico.',
     },
     {
-      question: 'How do I become an insider?',
+      question: '¿El Máster en Periodismo es oficial?',
       answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Sí, el Máster en Periodismo es un programa oficial reconocido por el Ministerio de Educación. Al finalizar el programa, se otorga un título oficial de Máster en Periodismo.',
+    },
+  ],
+  [
+    {
+      question: '¿Cómo puedo obtener más información sobre el Máster en Periodismo?',
+      answer:
+        'Puedes obtener más información sobre el Máster en Periodismo visitando nuestra página web oficial o contactando con nuestro equipo de admisiones. Estaremos encantados de resolver todas tus dudas.',
+    },
+    {
+      question: '¿Cuál es la duración del Máster en Periodismo?',
+      answer:
+        'El Máster en Periodismo tiene una duración de 1 año académico, dividido en dos semestres. Durante este tiempo, los estudiantes adquieren los conocimientos y habilidades necesarios para destacar en el campo del periodismo.',
+    },
+    {
+      question: '¿Se ofrecen prácticas profesionales durante el Máster en Periodismo?',
+      answer:
+        'Sí, ofrecemos oportunidades de prácticas profesionales durante el Máster en Periodismo. Trabajamos en colaboración con empresas y medios de comunicación para brindar a los estudiantes una experiencia práctica en el campo del periodismo.',
     },
   ],
 ]
@@ -67,10 +67,10 @@ export function Faqs() {
             id="faqs-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Frequently asked questions
+            Preguntas frecuentes
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            If you have anything else you want to ask,{' '}
+            Si tienes alguna pregunta adicional, no dudes en{' '}
             <a
               href="mailto:info@example.com"
               className="text-gray-900 underline"

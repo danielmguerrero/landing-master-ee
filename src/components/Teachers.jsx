@@ -9,6 +9,8 @@ import Arturo from '@/images/teachers/arturo.png'
 import Mario from '@/images/teachers/mario.png'
 import Peral from '@/images/teachers/peral.png'
 import Puri from '@/images/teachers/puri.png'
+import Lina from '@/images/teachers/lina.jpg'
+import Mazariegos from '@/images/teachers/mazariegos.jpg'
 
 
 const teachers = [
@@ -20,7 +22,7 @@ const teachers = [
   },
   {
     name: 'Miguel Ángel Mellado',
-    role: 'Director del Máster - ex Director de Información de EL ESPAÑOL',
+    role: 'Director del Máster',
     imageUrl: Mellado,
     contrast: 'grayscale(1) contrast(1.3) brightness(1.2)',
   },
@@ -48,6 +50,18 @@ const teachers = [
     imageUrl: Puri,
     contrast: 'grayscale(1.1) brightness(1.3)',
   },
+  {
+    name: 'Lina Smith',
+    role: 'Jefa de Arte EL ESPAÑOL',
+    imageUrl: Lina,
+    contrast: 'grayscale(1) brightness(1.3)',
+  },
+  {
+    name: 'Álvaro Mazariegos',
+    role: 'Director Audiencias EL ESPAÑOL',
+    imageUrl: Mazariegos,
+    contrast: 'grayscale(1) brightness(1.1)',
+  },
 ]
 
 export function Teachers() {
@@ -67,10 +81,10 @@ export function Teachers() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-4">
         {teachers.map((teacher) => (
           <div key={teacher.name} className="flex flex-col items-center">
-            <Image src={teacher.imageUrl} alt={teacher.name} className="rounded-full w-50 h-50 object-cover" style={{ filter: teacher.contrast,  width: '200px', height: '200px'}} />
+            <Image src={teacher.imageUrl} alt={teacher.name} className="rounded-full w-50 h-50 object-cover" style={{ filter: teacher.contrast,  width: '150px', height: '150px'}} />
             <div className="mt-4 text-center">
               <h3 className="text-lg font-semibold">{teacher.name}</h3>
               <p className="text-gray-500">{teacher.role}</p>

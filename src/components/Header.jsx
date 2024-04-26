@@ -59,7 +59,7 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-6">
-            <Popover className="lg:hidden">
+            {/* <Popover className="lg:hidden">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -121,8 +121,8 @@ export function Header() {
                   </AnimatePresence>
                 </>
               )}
-            </Popover>
-            <Button href="#" className="hidden lg:block uppercase">
+            </Popover> */}
+            <Button href="#" className="lg:block uppercase">
               Inscríbete
             </Button>
           </div>
