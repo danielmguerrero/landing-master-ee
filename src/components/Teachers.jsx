@@ -9,7 +9,7 @@ import Arturo from '@/images/teachers/arturo.png'
 import Mario from '@/images/teachers/mario.png'
 import Peral from '@/images/teachers/peral.png'
 import Puri from '@/images/teachers/puri.png'
-import Lina from '@/images/teachers/lina.jpg'
+import Lina from '@/images/teachers/lina.png'
 import Mazariegos from '@/images/teachers/mazariegos.jpg'
 
 
@@ -54,7 +54,7 @@ const teachers = [
     name: 'Lina Smith',
     role: 'Jefa de Arte EL ESPAÑOL',
     imageUrl: Lina,
-    contrast: 'grayscale(1) brightness(1.3)',
+    contrast: 'grayscale(1) brightness(1.1)',
   },
   {
     name: 'Álvaro Mazariegos',

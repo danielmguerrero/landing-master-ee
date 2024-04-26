@@ -2419,6 +2419,28 @@ module.exports = createProxy("/Users/daniel.munoz/Apps/landing-master/node_modul
 
 /***/ }),
 
+/***/ "(rsc)/./node_modules/next/dist/client/components/not-found.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/client/components/not-found.js ***!
+  \***************************************************************/
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\n0 && (0);\nfunction _export(target, all) {\n    for(var name in all)Object.defineProperty(target, name, {\n        enumerable: true,\n        get: all[name]\n    });\n}\n_export(exports, {\n    notFound: function() {\n        return notFound;\n    },\n    isNotFoundError: function() {\n        return isNotFoundError;\n    }\n});\nconst NOT_FOUND_ERROR_CODE = \"NEXT_NOT_FOUND\";\nfunction notFound() {\n    // eslint-disable-next-line no-throw-literal\n    const error = new Error(NOT_FOUND_ERROR_CODE);\n    error.digest = NOT_FOUND_ERROR_CODE;\n    throw error;\n}\nfunction isNotFoundError(error) {\n    return (error == null ? void 0 : error.digest) === NOT_FOUND_ERROR_CODE;\n}\nif ((typeof exports.default === \"function\" || typeof exports.default === \"object\" && exports.default !== null) && typeof exports.default.__esModule === \"undefined\") {\n    Object.defineProperty(exports.default, \"__esModule\", {\n        value: true\n    });\n    Object.assign(exports.default, exports);\n    module.exports = exports.default;\n} //# sourceMappingURL=not-found.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL25vdC1mb3VuZC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7SUFRZ0JBLFVBQVE7ZUFBUkE7O0lBY0FDLGlCQUFlO2VBQWZBOzs7QUF0QmhCLE1BQU1DLHVCQUF1QjtBQVF0QixTQUFTRjtJQUNkLDRDQUE0QztJQUM1QyxNQUFNRyxRQUFRLElBQUlDLE1BQU1GO0lBQ3RCQyxNQUF3QkUsTUFBTSxHQUFHSDtJQUNuQyxNQUFNQztBQUNSO0FBU08sU0FBU0YsZ0JBQWdCRSxLQUFVO0lBQ3hDLE9BQU9BLENBQUFBLFNBQUFBLE9BQUFBLEtBQUFBLElBQUFBLE1BQU9FLE1BQU0sTUFBS0g7QUFDM0IiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90YWlsd2luZHVpLXBvY2tldC8uLi8uLi8uLi9zcmMvY2xpZW50L2NvbXBvbmVudHMvbm90LWZvdW5kLnRzPzA3ZmIiXSwibmFtZXMiOlsibm90Rm91bmQiLCJpc05vdEZvdW5kRXJyb3IiLCJOT1RfRk9VTkRfRVJST1JfQ09ERSIsImVycm9yIiwiRXJyb3IiLCJkaWdlc3QiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/client/components/not-found.js\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/client/components/parallel-route-default.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/next/dist/client/components/parallel-route-default.js ***!
+  \****************************************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n    enumerable: true,\n    get: function() {\n        return NoopParallelRouteDefault;\n    }\n}));\nconst _notfound = __webpack_require__(/*! ./not-found */ \"(rsc)/./node_modules/next/dist/client/components/not-found.js\");\nfunction NoopParallelRouteDefault() {\n    (0, _notfound.notFound)();\n}\nif ((typeof exports.default === \"function\" || typeof exports.default === \"object\" && exports.default !== null) && typeof exports.default.__esModule === \"undefined\") {\n    Object.defineProperty(exports.default, \"__esModule\", {\n        value: true\n    });\n    Object.assign(exports.default, exports);\n    module.exports = exports.default;\n} //# sourceMappingURL=parallel-route-default.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL3BhcmFsbGVsLXJvdXRlLWRlZmF1bHQuanMiLCJtYXBwaW5ncyI6Ijs7OzsyQ0FFQTs7O2VBQXdCQTs7O3NDQUZDO0FBRVYsU0FBU0E7SUFDdEJDLENBQUFBLEdBQUFBLFVBQUFBLFFBQVE7QUFDViIsInNvdXJjZXMiOlsid2VicGFjazovL3RhaWx3aW5kdWktcG9ja2V0Ly4uLy4uLy4uL3NyYy9jbGllbnQvY29tcG9uZW50cy9wYXJhbGxlbC1yb3V0ZS1kZWZhdWx0LnRzeD83Mjc1Il0sIm5hbWVzIjpbIk5vb3BQYXJhbGxlbFJvdXRlRGVmYXVsdCIsIm5vdEZvdW5kIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/client/components/parallel-route-default.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/client/components/render-from-template-context.js":
 /*!**********************************************************************************!*\
   !*** ./node_modules/next/dist/client/components/render-from-template-context.js ***!
