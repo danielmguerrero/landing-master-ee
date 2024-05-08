@@ -5,24 +5,24 @@ const faqs = [
     {
       question: '¿Cuál es el precio del Máster en Periodismo y cuáles son las formas de pago?',
       answer:
-        'El precio del Máster en Periodismo es de 9.000€. Ofrecemos diferentes formas de pago, incluyendo pago único, pago fraccionado y financiamiento a través de entidades bancarias.',
+        'El precio del Máster en Periodismo es de 9.000€. Ofrecemos diferentes formas de pago, incluyendo pago único, pago fraccionado y financiación a través de entidades bancarias.',
     },
     {
       question: '¿Existen ayudas disponibles para el Máster en Periodismo?',
       answer:
-        'Sí, ofrecemos diferentes tipos de ayudas para los estudiantes del Máster en Periodismo, como becas académicas, descuentos por mérito y programas de financiamiento.',
+        'Sí, ofrecemos diferentes tipos de ayudas para los estudiantes del Máster en Periodismo, como becas académicas, descuentos por mérito y programas de financiación.',
     },
     {
       question: '¿Dónde se encuentra ubicado el campus del Máster en Periodismo?',
       answer:
-        'Nuestro campus se encuentra en el centro de la ciudad, en el Paseo de la Castellana. Una ubicación de fácil acceso y con todas las comodidades necesarias para los estudiantes.',
+        'Nuestro campus se encuentra en el centro de la ciudad, junto al Paseo de la Castellana. Una ubicación de fácil acceso y con todas las comodidades necesarias para los estudiantes.',
     },
   ],
   [
     {
       question: '¿Cuál es el horario del Máster en Periodismo?',
       answer:
-        'Los seis primeros meses, en el Taller de Periodismo del campus, de lunes a viernes, de 9 a 14.30. Los seis meses siguientes, prácticas en la redacción de EL ESPAÑOL, de lunes a viernes, con horario por determinar.',
+        'Los seis primeros meses, en el Taller de Periodismo del campus, de lunes a viernes, de 9 a 14:45. Los seis meses siguientes, prácticas en la redacción de EL ESPAÑOL, de lunes a viernes, con horario por determinar.',
     },
     {
       question: '¿Cuándo comienza el Máster en Periodismo?',

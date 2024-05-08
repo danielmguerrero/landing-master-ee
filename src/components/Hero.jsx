@@ -102,18 +102,7 @@ export function Hero() {
               Conviértete en un periodista 360 con el <b>Máster de Periodismo</b> de EL ESPAÑOL
             </h1>
             <p class="mt-6 text-lg text-gray-600">El Máster en Periodismo EL ESPAÑOL + UCJC te preparará para convertirte en un periodista demandado. Desde el primer día estarás integrado en la redacción de El Español, el medio nativo digital líder. <b>Abierto el plazo de inscripción.</b></p>
-            {/* <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-              <Button href="#" className="hidden lg:block uppercase">
-                Más información
-              </Button>
-               <Button
-                href="https://www.youtube.com/watch?v=HGXz2QbfgmM"
-                variant="outline"
-              >
-                <PlayIcon className="h-6 w-6 flex-none" />
-                <span className="ml-2.5">Así es el máster</span>
-              </Button>
-            </div> */}
+
             
        
             <Button className="uppercase font-bold mt-8 tracking-tight" data-tf-live="01HXC1JBJYHRBXJ2DDGFE5WS83">MÁS INFORMACIÓN</Button><script src="//embed.typeform.com/next/embed.js"></script>
