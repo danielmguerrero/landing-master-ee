@@ -13,8 +13,7 @@ export function Video() {
             Así fue la última promoción 
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg!
+          La promoción 23/24 ha sido un gran éxito en el estreno de esta aventura promovida por EL ESPAÑOL para formar cantera para el diario líder de la prensa nacional y para el periodismo en general.
           </p>
         </div>
       </div>

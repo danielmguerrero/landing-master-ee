@@ -3,7 +3,7 @@ import clsx from 'clsx'
 
 const baseStyles = {
   solid:
-    'inline-flex justify-center rounded-lg py-3 px-4 text-sm font-semibold outline-2 outline-offset-2 transition-colors font-bold',
+    'inline-flex justify-center rounded-lg py-1 px-0 text-sm font-semibold outline-2 outline-offset-2 transition-colors font-bold',
   outline:
     'inline-flex justify-center rounded-lg border py-[calc(theme(spacing.3)-0px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors',
 }

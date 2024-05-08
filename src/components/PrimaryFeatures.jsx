@@ -19,23 +19,23 @@ const faqs = [
   },
   {
     question: "MÓDULO III - PERIODISMO MULTIMEDIA DIGITAL. Nuevos y viejos formatos",
-    answer: "Redes sociales: más allá del entretenimiento. Periodismo e influencers."
+    answer: "En este módulo adquirirás el dominio de formatos y herramientas para ser un periodista multimedia. Dividido en cuatro partes con clases muy prácticas: Podcast, Inteligencia Artificial, Redes Sociales e Influencers y la Cámara, desde el vídeo a los drones."
   },
   {
-    question: "MÓDULO IV - TELEVISIÓN, RADIO Y CÁMARA",
-    answer: "Producción y redacción de contenido para medios audiovisuales, destacando la importancia de habilidades como la locución y la improvisación. Se explora el papel crucial de la cámara como aliado del periodista, resaltando su uso adecuado y la autonomía necesaria para su manejo. Además, se analiza el cine como un género periodístico en sí mismo, examinando su capacidad para informar y generar conciencia sobre diversos temas de interés periodístico a través de películas documentales y de ficción."
+    question: "MÓDULO IV - TELEVISIÓN Y RADIO",
+    answer: "Dedicado exclusivamente a la Radio y la Televisión. Producción y redacción de contenidos audiovisuales, destacando la importancia de habilidades como la locución y la improvisación. Una inmersión con profesionales de estos medios en el MediaLab de la UCJC."
   },
   {
     question: "MÓDULO V - EMPLEABILIDAD. Nuevas ventanas de trabajo",
-    answer: "Ser periodista sin trabajar en una redacción. Así se inventaron los mejores."
+    answer: "Conocerás en cinco intensas Máster Class, dirigidas por comunicadores relevantes, cómo se puede triunfar en la profesión sin trabajar en una redacción."
   },
   {
     question: "MÓDULO VI - PRÁCTICAS",
-    answer: "Seis meses de prácticas remuneradas en EL ESPAÑOL."
+    answer: "Seis meses de prácticas remuneradas en EL ESPAÑOL. Tras finalizar el Máster con el periodo de prácticas, serán contratados al menos dos de los mejores alumnos."
   },
   {
     question: "MÓDULO VII - TRABAJO FIN DE MÁSTER",
-    answer: "Redes sociales: más allá del entretenimiento. Periodismo e influencers."
+    answer: "El TFM consistirá en un gran reportaje exclusivo, en formato libre, que será publicado en EL ESPAÑOL si tiene el nivel periodístico adecuado."
   },
 
 ]

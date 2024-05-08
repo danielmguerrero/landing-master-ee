@@ -11,7 +11,7 @@ const features = [
   },
   {
     name: 'Duración',
-    description: '1 curso',
+    description: '12 meses',
     icon: ClockIcon,
   },
   {
@@ -67,7 +67,7 @@ export function SecondaryFeatures() {
         <span className="inline-flex items-center rounded-md bg-blue-50 px-4 py-3 text-xs font-medium uppercase">
               Prácticas garantizadas
             </span>
-            <p className="text-gray-600 ml-4 pt-2 text-sm">Harás 6 meses de prácticas en la redacción de EL ESPAÑOL tras finalizar el máster.</p>
+            <p className="text-gray-600 ml-4 pt-2 text-sm">Harás seis meses de prácticas en la redacción de EL ESPAÑOL, tras un periodo similar en el Taller de Periodismo de la Universidad.</p>
         </div>
         
       </Container>

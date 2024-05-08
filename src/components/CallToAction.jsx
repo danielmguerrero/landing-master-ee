@@ -20,7 +20,7 @@ export function CallToAction() {
           <p className="mt-4 text-bold text-lg text-gray-300">
             Te enviaremos al correo electrónico toda la información sobre precios y ayudas disponibles.
           </p>
-          <Button className="uppercase font-bold mt-8 tracking-tight">Solicitar información</Button>
+          <Button className="uppercase font-bold mt-8 tracking-tight" data-tf-live="01HXC1JBJYHRBXJ2DDGFE5WS83">MÁS INFORMACIÓN</Button><script src="//embed.typeform.com/next/embed.js"></script>
         </div>
       </Container>
     </section>

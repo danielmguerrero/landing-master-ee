@@ -22,17 +22,17 @@ const faqs = [
     {
       question: '¿Cuál es el horario del Máster en Periodismo?',
       answer:
-        'El horario del Máster en Periodismo es de lunes a viernes, de 9:00 a.m. a 6:00 p.m. Se realizan actividades prácticas, conferencias y talleres durante este horario.',
+        'Los seis primeros meses, en el Taller de Periodismo del campus, de lunes a viernes, de 9 a 14.30. Los seis meses siguientes, prácticas en la redacción de EL ESPAÑOL, de lunes a viernes, con horario por determinar.',
     },
     {
       question: '¿Cuándo comienza el Máster en Periodismo?',
       answer:
-        'El Máster en Periodismo comienza en septiembre de cada año. Las fechas exactas pueden variar, por lo que se recomienda consultar el calendario académico.',
+        'El Máster en Periodismo comienza en octubre de cada año. Las fechas exactas pueden variar, por lo que se recomienda consultar el calendario académico.',
     },
     {
-      question: '¿El Máster en Periodismo es oficial?',
+      question: '¿El Máster en Periodismo es propio?',
       answer:
-        'Sí, el Máster en Periodismo es un programa oficial reconocido por el Ministerio de Educación. Al finalizar el programa, se otorga un título oficial de Máster en Periodismo.',
+        'Sí, este Master de Periodismo es propio, avalado académicamente por la Universidad Camilo José Cela y profesionalmente por EL ESPAÑOL. Al final el Máster los alumnos recibirán el título.',
     },
   ],
   [
@@ -72,10 +72,10 @@ export function Faqs() {
           <p className="mt-2 text-lg text-gray-600">
             Si tienes alguna pregunta adicional, no dudes en{' '}
             <a
-              href="mailto:info@example.com"
+              href="mailto:margarita.gomez@ucjc.edu"
               className="text-gray-900 underline"
             >
-              reach out to us
+              contactar con nosotros
             </a>
             .
           </p>

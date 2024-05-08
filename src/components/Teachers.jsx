@@ -5,12 +5,14 @@ import { Container } from '@/components/Container'
 
 import PedroJ from '@/images/teachers/pedroj.jpeg'
 import Mellado from '@/images/teachers/mellado.png'
-import Arturo from '@/images/teachers/arturo.png'
 import Mario from '@/images/teachers/mario.png'
 import Peral from '@/images/teachers/peral.png'
 import Puri from '@/images/teachers/puri.png'
 import Lina from '@/images/teachers/lina.png'
 import Mazariegos from '@/images/teachers/mazariegos.jpg'
+import Somoano from '@/images/teachers/somoano.jpg'
+import Iglesias from '@/images/teachers/iglesias.png'
+import Maldonado from '@/images/teachers/maldonado.png'
 
 
 const teachers = [
@@ -33,15 +35,15 @@ const teachers = [
     contrast: 'grayscale(1) contrast(1.1) brightness(1)',
   },
   {
-    name: 'Arturo Criado',
-    role: 'Subdirector de Invertia',
-    imageUrl: Arturo,
+    name: 'Julio Somoano',
+    role: 'Ex director de Informativos de TVE. Especialista en Radio y TV',
+    imageUrl: Somoano,
     contrast: 'grayscale(1) brightness(1.2)',
   },
   {
-    name: 'Mario Díaz',
-    role: 'Director Adjunto de EL ESPAÑOL',
-    imageUrl: Mario,
+    name: 'Alberto Iglesias',
+    role: 'Especialista en IA en información',
+    imageUrl: Iglesias,
     contrast: 'grayscale(1) brightness(1.1)',
   },
   {
@@ -51,17 +53,18 @@ const teachers = [
     contrast: 'grayscale(1.1) brightness(1.3)',
   },
   {
+    name: 'Lorena G. Maldonado',
+    role: 'Periodista de EL ESPAÑOL',
+    imageUrl: Maldonado,
+    contrast: 'grayscale(1.1) brightness(1)',
+  },
+  {
     name: 'Lina Smith',
     role: 'Jefa de Arte EL ESPAÑOL',
     imageUrl: Lina,
     contrast: 'grayscale(1) brightness(1.1)',
-  },
-  {
-    name: 'Álvaro Mazariegos',
-    role: 'Director Audiencias EL ESPAÑOL',
-    imageUrl: Mazariegos,
-    contrast: 'grayscale(1) brightness(1.1)',
-  },
+  }
+  
 ]
 
 export function Teachers() {
@@ -76,8 +79,7 @@ export function Teachers() {
             Tus profesores, los mejores periodistas y profesionales del sector 
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg!
+          Una combinación de profesionales en activo. La suma de la experiencia y el conocimiento en las nuevas técnicas y herramientas del periodismo actual.
           </p>
         </div>
       </div>
