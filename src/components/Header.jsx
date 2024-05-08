@@ -15,7 +15,7 @@ import LogoElEspanol from '@/images/logos/elespanol.svg'
 
 export function Header() {
   return (
-    <header className='sticky top-0 bg-white/95 shadow-md z-50 md:relative md:bg-transparent md:shadow-none'>
+    <header className='sticky top-0 bg-white/95 shadow-md z-50'>
   <nav>
     <Container className="relative z-50 flex justify-between py-2">
       <div className="relative z-10 flex items-center gap-16">
@@ -26,7 +26,7 @@ export function Header() {
           <NavLinks />
         </div>
       </div>
-      <div className="flex items-center gap-6 md:hidden">
+      <div className="flex items-center gap-6">
         <Button className="uppercase tracking-tight" data-tf-live="01HXC1JBJYHRBXJ2DDGFE5WS83">MÁS INFORMACIÓN</Button><script src="//embed.typeform.com/next/embed.js"></script>
       </div>
     </Container>
