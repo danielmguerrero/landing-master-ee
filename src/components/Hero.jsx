@@ -101,7 +101,7 @@ export function Hero() {
             <h1 className="text-4xl sm:text-6xl font-medium tracking-tight text-gray-900">
               Conviértete en un periodista 360 con EL ESPAÑOL
             </h1>
-            <p class="mt-6 text-lg text-gray-600">El Máster en Periodismo EL ESPAÑOL + UCJC te preparará para convertirte en un periodista demandado. Desde el primer día estarás integrado en la redacción de El Español, el medio nativo digital líder.</p>
+            <p class="mt-6 text-lg text-gray-600">El Máster en Periodismo EL ESPAÑOL + UCJC te preparará para convertirte en un periodista demandado. Desde el primer día estarás integrado en la redacción de El Español, el medio nativo digital líder. <b>Abierto el plazo de inscripción.</b></p>
             {/* <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <Button href="#" className="hidden lg:block uppercase">
                 Más información

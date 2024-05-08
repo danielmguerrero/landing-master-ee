@@ -15,7 +15,7 @@ const faqs = [
     {
       question: '¿Dónde se encuentra ubicado el campus del Máster en Periodismo?',
       answer:
-        'Nuestro campus se encuentra en el centro de la ciudad, en una ubicación de fácil acceso y con todas las comodidades necesarias para los estudiantes.',
+        'Nuestro campus se encuentra en el centro de la ciudad, en el Paseo de la Castellana. Una ubicación de fácil acceso y con todas las comodidades necesarias para los estudiantes.',
     },
   ],
   [
@@ -32,7 +32,7 @@ const faqs = [
     {
       question: '¿El Máster en Periodismo es propio?',
       answer:
-        'Sí, este Master de Periodismo es propio, avalado académicamente por la Universidad Camilo José Cela y profesionalmente por EL ESPAÑOL. Al final el Máster los alumnos recibirán el título.',
+        'Sí, este Master de Periodismo es propio, avalado académicamente por la Universidad Camilo José Cela y profesionalmente por EL ESPAÑOL. Al finalizar el Máster los alumnos recibirán el título.',
     },
   ],
   [
@@ -49,7 +49,7 @@ const faqs = [
     {
       question: '¿Se ofrecen prácticas profesionales durante el Máster en Periodismo?',
       answer:
-        'Sí, ofrecemos oportunidades de prácticas profesionales durante el Máster en Periodismo. Trabajamos en colaboración con empresas y medios de comunicación para brindar a los estudiantes una experiencia práctica en el campo del periodismo.',
+        'Sí, ofrecemos oportunidades de prácticas profesionales remuneradas durante el Máster en Periodismo. Trabajamos en colaboración con empresas y medios de comunicación para brindar a los estudiantes una experiencia práctica en el campo del periodismo.',
     },
   ],
 ]
