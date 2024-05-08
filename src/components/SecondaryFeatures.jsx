@@ -56,9 +56,9 @@ export function SecondaryFeatures() {
               className="rounded-2xl border border-gray-200 p-6"
             >
               <feature.icon className="h-8 w-8" />
-              <h3 className="mt-4 font-semibold text-gray-900">
+              <div className="mt-4 font-semibold text-gray-900">
                 {feature.name}
-              </h3>
+              </div>
               <p className="text-gray-700">{feature.description}</p>
             </li>
           ))}
