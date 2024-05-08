@@ -8,6 +8,10 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
+import Image from 'next/image'
+
+import LogoElEspanol from '@/images/logos/elespanol.svg'
+
 
 function MenuIcon(props) {
   return (
@@ -52,7 +56,7 @@ export function Header() {
     <Container className="relative z-50 flex justify-between py-2">
       <div className="relative z-10 flex items-center gap-16">
         <Link href="/" aria-label="Home">
-          <Logo className="h-10 w-auto" />
+        <Image src={LogoElEspanol} unoptimized width={120} />
         </Link>
         <div className="hidden lg:flex lg:gap-10">
           <NavLinks />
