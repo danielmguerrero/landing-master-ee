@@ -13,6 +13,7 @@ import Mazariegos from '@/images/teachers/mazariegos.jpg'
 import Somoano from '@/images/teachers/somoano.jpg'
 import Iglesias from '@/images/teachers/iglesias.png'
 import Maldonado from '@/images/teachers/maldonado.png'
+import Cerdan from '@/images/teachers/manuel-cerdan.png'
 
 
 const teachers = [
@@ -53,16 +54,16 @@ const teachers = [
     contrast: 'grayscale(1.1) brightness(1.3)',
   },
   {
+    name: 'Manuel Cerdán',
+    role: 'Doctor en Periodismo, especialista en Investigación',
+    imageUrl: Cerdan,
+    contrast: 'grayscale(1) contrast(1.1) brightness(1.3)',
+  },
+  {
     name: 'Lorena G. Maldonado',
     role: 'Periodista de EL ESPAÑOL',
     imageUrl: Maldonado,
     contrast: 'grayscale(1.1) brightness(1)',
-  },
-  {
-    name: 'Lina Smith',
-    role: 'Jefa de Arte EL ESPAÑOL',
-    imageUrl: Lina,
-    contrast: 'grayscale(1) brightness(1.1)',
   }
   
 ]
